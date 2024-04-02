@@ -11,7 +11,10 @@ class _AllScorePageState extends State<AllScorePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      backgroundColor: const Color(0xff80ede8),
+      appBar: AppBar(
+        backgroundColor: const Color(0xfff79ebb),
+      ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
@@ -214,98 +217,6 @@ class _AllScorePageState extends State<AllScorePage> {
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                           fontSize: 21),
-                    ),
-                  ),
-                ),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              Padding(
-                padding: const EdgeInsets.only(left: 15, top: 10),
-                child: Container(
-                  height: 60,
-                  width: 165,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(7),
-                      border: Border.all(width: 5, color: Colors.yellow),
-                      color: Colors.pinkAccent),
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 25,top: 8),
-                    child: Text(
-                      "10 (যিকির)",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 22),
-                    ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 10),
-                child: Container(
-                  height: 60,
-                  width: 165,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(7),
-                      border: Border.all(width: 5, color: Colors.yellow),
-                      color: Colors.pinkAccent),
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 25,top: 8),
-                    child: Text(
-                      "10 (এলেম)",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 22),
-                    ),
-                  ),
-                ),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              Padding(
-                padding: const EdgeInsets.only(left: 15, top: 10),
-                child: Container(
-                  height: 60,
-                  width: 165,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(7),
-                      border: Border.all(width: 5, color: Colors.yellow),
-                      color: Colors.pinkAccent),
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 25,top: 8),
-                    child: Text(
-                      "10 (জান্নাত)",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 22),
-                    ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 10),
-                child: Container(
-                  height: 60,
-                  width: 165,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(7),
-                      border: Border.all(width: 5, color: Colors.yellow),
-                      color: Colors.pinkAccent),
-                  child: const Padding(
-                    padding: EdgeInsets.only(left: 15,top: 8),
-                    child: Text(
-                      "10 (জাহান্নাম)",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 22),
                     ),
                   ),
                 ),

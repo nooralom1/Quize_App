@@ -17,7 +17,9 @@ class _Question1PageState extends State<Question1Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff80ede8),
       appBar: AppBar(
+        backgroundColor: const Color(0xfff79ebb),
       ),
       body: Stack(
         clipBehavior: Clip.none,
@@ -32,7 +34,7 @@ class _Question1PageState extends State<Question1Page> {
                     height: 150,
                     width: 330,
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: const Color(0xfff8ffad),
                       borderRadius: BorderRadius.circular(22),
                       boxShadow: const [
                         BoxShadow(
@@ -73,7 +75,7 @@ class _Question1PageState extends State<Question1Page> {
                     height: 350,
                     width: 330,
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: const Color(0xfff8ffad),
                       borderRadius: BorderRadius.circular(22),
                       boxShadow: const [
                         BoxShadow(

@@ -13,36 +13,35 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff80ede8),
       body: Stack(
         clipBehavior: Clip.none,
         children: [
           SingleChildScrollView(
             child: Column(
               children: [
-                Padding(
-                  padding: const EdgeInsets.only(top: 50),
-                  child: Container(
-                    height: 100,
-                    width: 330,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(12),
-                      boxShadow: const [
-                        BoxShadow(
-                          blurRadius: (10),
-                          color: Colors.grey,
-                        ),
-                      ],
-                    ),
-                    child:  Row(
+                Container(
+                  height: 150,
+                  decoration: BoxDecoration(
+                    color: const Color(0xfff79ebb),
+                    borderRadius: BorderRadius.circular(12),
+                    boxShadow: const [
+                      BoxShadow(
+                        blurRadius: (10),
+                        color: Colors.grey,
+                      ),
+                    ],
+                  ),
+                  child:  Padding(
+                    padding: const EdgeInsets.only(top: 30,left: 15),
+                    child: Row(
                       children: [
-                        const Padding(
+                         const Padding(
                           padding: EdgeInsets.all(8.0),
                           child: CircleAvatar(
                             radius: 40,
                             backgroundColor: Colors.white,
-                            backgroundImage: NetworkImage(
-                                "https://w7.pngwing.com/pngs/912/931/png-transparent-graphic-design-mandala-islami-blue-rectangle-logo-thumbnail.png"),
+                           backgroundImage: AssetImage("images/11111-removebg-preview.png")
                           ),
                         ),
                         Column(
@@ -141,7 +140,7 @@ class _MainPageState extends State<MainPage> {
                           height: 135,
                           width: 150,
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: const Color(0xfff8ffad),
                             borderRadius: BorderRadius.circular(12),
                             boxShadow: const [
                               BoxShadow(
@@ -181,7 +180,7 @@ class _MainPageState extends State<MainPage> {
                           height: 135,
                           width: 150,
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: const Color(0xfff8ffad),
                             borderRadius: BorderRadius.circular(12),
                             boxShadow: const [
                               BoxShadow(
@@ -225,7 +224,7 @@ class _MainPageState extends State<MainPage> {
                           height: 135,
                           width: 150,
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: const Color(0xfff8ffad),
                             borderRadius: BorderRadius.circular(12),
                             boxShadow: const [
                               BoxShadow(
@@ -265,7 +264,7 @@ class _MainPageState extends State<MainPage> {
                           height: 135,
                           width: 150,
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: const Color(0xfff8ffad),
                             borderRadius: BorderRadius.circular(12),
                             boxShadow: const [
                               BoxShadow(
@@ -309,7 +308,7 @@ class _MainPageState extends State<MainPage> {
                           height: 135,
                           width: 150,
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: const Color(0xfff8ffad),
                             borderRadius: BorderRadius.circular(12),
                             boxShadow: const [
                               BoxShadow(
@@ -349,7 +348,7 @@ class _MainPageState extends State<MainPage> {
                           height: 135,
                           width: 150,
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: const Color(0xfff8ffad),
                             borderRadius: BorderRadius.circular(12),
                             boxShadow: const [
                               BoxShadow(
@@ -393,7 +392,7 @@ class _MainPageState extends State<MainPage> {
                           height: 135,
                           width: 150,
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: const Color(0xfff8ffad),
                             borderRadius: BorderRadius.circular(12),
                             boxShadow: const [
                               BoxShadow(
@@ -433,7 +432,7 @@ class _MainPageState extends State<MainPage> {
                           height: 135,
                           width: 150,
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: const Color(0xfff8ffad),
                             borderRadius: BorderRadius.circular(12),
                             boxShadow: const [
                               BoxShadow(

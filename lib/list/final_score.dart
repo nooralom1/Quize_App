@@ -28,7 +28,9 @@ class _FinalScorePageState extends State<FinalScorePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff80ede8),
       appBar: AppBar(
+        backgroundColor: const Color(0xfff79ebb),
         ),
       body: const Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -38,8 +40,7 @@ class _FinalScorePageState extends State<FinalScorePage> {
             child: CircleAvatar(
               radius: 80,
               backgroundColor: Colors.white,
-              backgroundImage: NetworkImage(
-                  "https://static.vecteezy.com/system/resources/previews/023/338/742/original/ai-generative-islamic-pattern-design-free-png.png"),
+              backgroundImage: AssetImage("images/11111-removebg-preview.png"),
             ),
           ),
           Padding(
